@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>🎂 Thank You - Yash's Birthday</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: 'Baloo 2', cursive;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      background-size: 300% 300%;
+      animation: gradientFlow 20s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      gap: 20px;
+    }
+
+    @keyframes gradientFlow {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #FFD700;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    .balloon {
+      font-size: 36px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+      100% { transform: translateY(0); }
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      max-width: 850px;
+      width: 100%;
+      animation: fadeInUp 2s ease;
+    }
+
+    .image-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .image-card img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+      box-shadow: 0 0 15px rgba(255,255,255,0.4);
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 26px;
+      margin-top: 10px;
+      color: #FFD700;
+      font-weight: bold;
+      animation: fadeIn 2.5s ease;
+    }
+
+    .shayari {
+      font-size: 20px;
+      line-height: 1.8;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 16px;
+      color: #eee;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(60px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 36px; }
+      .shayari { font-size: 18px; }
+      .image-card img { width: 130px; height: 130px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="balloon">🎈</div>
+  <h1>दिल से धन्यवाद</h1>
+
+  <div class="card">
+    <!-- Image Card -->
+    <div class="image-card">
+      <img src="WhatsApp Image 2025-07-27 at 13.47.16_6351862c.jpg" alt="Yash Yadav Photo">
+      <div class="name">💫 Yash Yadav</div>
+    </div>
+
+    <!-- Shayari -->
+    <div class="shayari">
+      🌸 आज मेरा जन्मदिन है, दुआओं की बहार आई है,<br>
+      हर तरफ से प्यार भरी आवाज़ आई है।<br><br>
+      दिल से कहता हूँ शुक्रिया उन सबका,<br>
+      जिनकी वजह से ये हँसी मेरे चेहरे पर आई है। 💖<br><br>
+      
+      ✨ बहुत खूब लिखा किसी ने…<br>
+      "कुछ रिश्ते बिन कहे भी खास बन जाते हैं,<br>
+      जिन्हें दिल से चाहो वही पास बन जाते हैं।<br>
+      जिनके बिना एक पल भी ना गुज़रे,<br>
+      बस वही जिंदगी का अहसास बन जाते हैं।" 🌹<br><br>
+      
+      🎂 इस खास दिन पर, बधाई देने वालों का दिल से धन्यवाद,<br>
+      आप सभी की दुआओं से ये दिन और भी खास बन गया... 🙏
+    </div>
+  </div>
+
+  <footer>— Made with ❤️ on my special day</footer>
+
+</body>
+</html>
